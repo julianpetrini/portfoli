@@ -10,11 +10,17 @@ h1 {
 }
 
 .background__image__main {
-  background-image: url(/assets/img/BG.png);
+  background-image: url('assets/img/background.png');
   background-size: cover;
 }
 
-.nav__names, .nav__icons {
+.bg_main {
+  background-image: url('../assets/img/background.png');
+  background-size: cover;
+}
+
+.nav__names,
+.nav__icons {
   text-decoration: none;
   font-family: "Domine", serif;
   font-weight: 500;
@@ -24,7 +30,8 @@ h1 {
   padding-right: 2.5rem;
   transition: color 0.5s ease-in-out;
 }
-.nav__names:hover, .nav__icons:hover {
+.nav__names:hover,
+.nav__icons:hover {
   color: rgb(111, 0, 202);
 }
 
@@ -116,7 +123,8 @@ header {
   padding: 3rem;
 }
 
-.about__container, .vertical__container {
+.about__container,
+.vertical__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,7 +165,8 @@ header {
   margin-top: 4rem;
 }
 
-.grid_about, .grid_contact {
+.grid_about,
+.grid_contact {
   padding: 2rem 4rem 0 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -169,7 +178,8 @@ header {
   align-items: center;
 }
 
-.line__hello, .line__myportfolio {
+.line__hello,
+.line__myportfolio {
   position: relative;
   top: 35rem;
   color: #ffe4e4;
@@ -191,7 +201,8 @@ hr {
   padding-top: 3rem;
 }
 
-.about__img__container__left, .about__img__container__right {
+.about__img__container__left,
+.about__img__container__right {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -232,7 +243,8 @@ hr {
   flex-wrap: wrap;
 }
 
-.projects__container, .skills__box__container {
+.projects__container,
+.skills__box__container {
   padding: 2rem;
 }
 
@@ -246,7 +258,8 @@ hr {
   margin-top: 2rem;
 }
 
-.project, .project__dreamcloud {
+.project,
+.project__dreamcloud {
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -256,14 +269,18 @@ hr {
   font-size: 20px;
 }
 
-.project__img__preview, .project__img__preview__dreamcloud, .project__img__preview__vertical {
+.project__img__preview,
+.project__img__preview__dreamcloud,
+.project__img__preview__vertical {
   max-width: fit-content;
   max-height: 28vh;
   border-radius: 15px;
   transition: transform 0.4s;
   transition: 0.5s;
 }
-.project__img__preview:hover, .project__img__preview__dreamcloud:hover, .project__img__preview__vertical:hover {
+.project__img__preview:hover,
+.project__img__preview__dreamcloud:hover,
+.project__img__preview__vertical:hover {
   border-color: yellow;
   transform: scale(1.02);
   transition-duration: 0.3s;
@@ -307,7 +324,10 @@ hr {
   border: none;
 }
 
-.button__visit__site, .button__repository, .button__view__more, .button__view__slides {
+.button__visit__site,
+.button__repository,
+.button__view__more,
+.button__view__slides {
   background-color: #0b3d2e;
   color: #e1eff3;
   box-shadow: 0 30px 40px rgba(0, 0, 0, 0.4);
@@ -322,17 +342,22 @@ hr {
   text-transform: uppercase;
   transition: transform 0.4s;
 }
-.button__visit__site:hover, .button__repository:hover, .button__view__more:hover, .button__view__slides:hover {
+.button__visit__site:hover,
+.button__repository:hover,
+.button__view__more:hover,
+.button__view__slides:hover {
   background-color: #000000;
   transform: scale(1.1);
   transition-duration: 0.3s;
 }
 
-.button__view__more, .button__view__slides {
+.button__view__more,
+.button__view__slides {
   background-color: #ffbd03;
   color: rgb(2, 2, 2);
 }
-.button__view__more:hover, .button__view__slides:hover {
+.button__view__more:hover,
+.button__view__slides:hover {
   color: rgb(240, 239, 239);
 }
 
@@ -402,10 +427,10 @@ hr {
   text-decoration: none;
 }
 
-input[type=text],
+input[type="text"],
 select,
 textarea,
-input[type=email] {
+input[type="email"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -416,7 +441,7 @@ input[type=email] {
   background: rgba(255, 255, 255, 0.8);
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 100%;
   background-color: #5adbb5;
   font-size: 1rem;
@@ -431,10 +456,10 @@ input[type=submit] {
   color: #f9fdff;
   transition: background-color 0.5s ease-in-out;
 }
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #000000;
 }
-input[type=submit]:hover {
+input[type="submit"]:hover {
   color: #5adbb5;
 }
 
@@ -470,7 +495,8 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 840px) and (min-width: 601px) {
-  .grid_about, .grid_contact {
+  .grid_about,
+  .grid_contact {
     padding: 2rem 4rem 0 4rem;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
@@ -522,7 +548,8 @@ input[type=submit]:hover {
     z-index: 1;
     box-shadow: 0 30px 40px rgba(0, 0, 0, 0.4);
   }
-  .nav__names, .nav__icons {
+  .nav__names,
+  .nav__icons {
     font-size: 0.9rem;
   }
   .nav_mobile_container {
@@ -559,7 +586,8 @@ input[type=submit]:hover {
   .arrow__center {
     margin-top: 4rem;
   }
-  .grid_about, .grid_contact {
+  .grid_about,
+  .grid_contact {
     padding: 2rem 4rem 2rem 4rem;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
@@ -587,13 +615,16 @@ input[type=submit]:hover {
   .about__img__container__right {
     display: none;
   }
-  .project__img__preview, .project__img__preview__vertical, .project__img__preview__dreamcloud {
+  .project__img__preview,
+  .project__img__preview__vertical,
+  .project__img__preview__dreamcloud {
     max-height: 50vw;
   }
   .skills__logo__img {
     max-height: 16vw;
   }
-  .project, .project__dreamcloud {
+  .project,
+  .project__dreamcloud {
     align-items: center;
   }
   .container {
