@@ -10,12 +10,12 @@ h1 {
 }
 
 .background__image__main {
-  background-image: url('assets/img/background.png');
+  background-image: url("assets/img/background.png");
   background-size: cover;
 }
 
 .bg_main {
-  background-image: url('../assets/img/background.png');
+  background-image: url("../assets/img/background.png");
   background-size: cover;
 }
 
@@ -116,7 +116,7 @@ header {
 }
 
 .background__image__about {
-  background-image: url(/assets/img/BG2.png);
+  background-image: url("../assets/img/BG2.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -472,7 +472,7 @@ input[type="submit"]:hover {
 }
 
 .footer__container {
-  height: 7vh;
+  height: 12vh;
   width: 100%;
   background-color: black;
   display: flex;
@@ -646,9 +646,9 @@ input[type="submit"]:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(63, 50, 252);
     box-shadow: 0 30px 40px rgba(0, 0, 0, 0.4);
-    background-image: url(/assets/img/BG.png);
+    background-image: url("../assets/img/background.png");
+
     text-transform: uppercase;
     font-size: 12px;
     position: fixed;
